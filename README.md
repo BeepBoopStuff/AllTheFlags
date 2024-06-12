@@ -1,2 +1,5 @@
 # AllTheFlags
-Repository of writeups from different CTF challenges  
+This is the repository for writeups from different CTF challenges.
+
+## SANS Holiday Hack 2024
+Future: Insert links 
