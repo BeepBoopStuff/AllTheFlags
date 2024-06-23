@@ -7,7 +7,7 @@ The North Pole 🎁 Present Maker:
 All the presents on this system have been stolen by trolls. Capture trolls by following instructions here and 🎁's will appear in the green bar below. Run the command "hintme" to receive a hint.
 
 ### Before we Dive in.
-As with past years this is the using Linux command line tutorial.
+As with a past year, I think 2020, this is the using Linux command line tutorial.
 
 ### The Challenge
 #### TASK-1: Perform a directory listing of your home directory to find a troll and retrieve a present!
