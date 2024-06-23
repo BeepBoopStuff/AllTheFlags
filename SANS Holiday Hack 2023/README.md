@@ -1,7 +1,7 @@
 ![SANS 2024 Header](https://github.com/BeepBoopStuff/AllTheFlags/blob/a18e53b071317eb6c624e07373b111921afe15f3/SANS%20Holiday%20Hack%202024/sans_banner.jpg)
 # SANS Holiday Hack 2023
 ## Challenge #1: Linux 101
-[[/linux_101/Linux_101_header.png | Linux101 Overview]]
+![Linux101 Overview](/linux_101/Linux_101_header.png)
 
 The North Pole 🎁 Present Maker:
 All the presents on this system have been stolen by trolls. Capture trolls by following instructions here and 🎁's will appear in the green bar below. Run the command "hintme" to receive a hint.
@@ -171,6 +171,6 @@ elf@0f34a7e2bd44:~/workshop/electrical$ kill 3510
 ```
 
 ### Final Thoughts
-We did it! This one is always kind of easy as long as you know basic Linux commands. 
+We did it! This one is always kind of easy as long as you know basic Linux commands.
 
-[[/linux_101/Linux_101_complete.png | Linux101 Completed]]
+![Linux101 Completed](/linux_101/Linux_101_complete.png)
