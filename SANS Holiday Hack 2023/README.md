@@ -187,6 +187,7 @@ There are two ways to complete this challenge
 <br>
 We will be covering the second choice in this walkthrough. So lets get started!
 <br>
+
 ### The Challenge
 First, we will need to slect the "Create Private Room" option
 <br>
