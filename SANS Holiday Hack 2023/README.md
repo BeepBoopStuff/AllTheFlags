@@ -184,9 +184,8 @@ We did it! This one is always kind of easy as long as you know basic Linux comma
 There are two ways to complete this challenge
 1. Play with Friends or other in the game (What I did during the competition)
 2. Use the hints given by Marcell to figure out you can use client-side debugging to defeat santa and his elfs
-<br>
 We will be covering the second choice in this walkthrough. So lets get started!
-<br>
+<br><br><br>
 
 ### The Challenge
 First, we will need to slect the "Create Private Room" option
