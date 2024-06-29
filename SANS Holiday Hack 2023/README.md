@@ -179,6 +179,7 @@ We did it! This one is always kind of easy as long as you know basic Linux comma
 ## Challenge #2: Snowball Fight
 ![Challenge Home](https://github.com/BeepBoopStuff/AllTheFlags/blob/ada9dda220f62ed7ac1bdc5e7c7bd1434ffac40b/SANS%20Holiday%20Hack%202023/snow_ball/home_screen_snowball.png)
 <br><br>
+
 ### Before we Dive in.
 There are two ways to complete this challenge
 1. Play with Friends or other in the game (What I did during the competition)
@@ -195,11 +196,15 @@ First, we will need to slect the "Create Private Room" option
 <br><br>
 Now that we are in the lobby we need to inspect the iFrame that is running the game. We can do this by righ-clicking within the game iFrame and slecting inspect.
 <br>
+
 ![Game Lobby Inspect](https://github.com/BeepBoopStuff/AllTheFlags/blob/ada9dda220f62ed7ac1bdc5e7c7bd1434ffac40b/SANS%20Holiday%20Hack%202023/snow_ball/Lobby_inspect.png)
+
 <br><br>
 This will bring up the devloper window in whatever your favorite flavor of browser is. Once open navigate to the "Sources" tab. It should look something like the image below.
 <br>
+
 ![Sources Dev Tool](https://github.com/BeepBoopStuff/AllTheFlags/blob/ada9dda220f62ed7ac1bdc5e7c7bd1434ffac40b/SANS%20Holiday%20Hack%202023/snow_ball/dev_tool_sources.png)
+
 <br><br>
 Now we need to review the running java script to see if there are any variables we can manipulate and if there is a way to bypass the need to have at minium two players to start a private game. In the game iFrame we can click "" to enter the field. Once there we confirm that the game will not start without a second player :(. However, we can go back to the devloper window and pause java script execution and see what the javascript looks like.
 <br>
@@ -212,23 +217,33 @@ Reviewing the sourcecode we see some intresting variables we can manipulate:
   ...
   player.throwDelay = 300         # Make very small, as this is our throw delay!
 ```
+
 <br>
 We will need these for the future but for now we need to figure out how to get the game to start with one player. Looking under the "Elements" tab we see a very intresting url.
 <br>
+
 https://hhc23-snowball.holidayhackchallenge.com/room/?username=BeepBoopStuff&roomId=252338599&roomType=private&gameType=co-op&id=941a100d-2517-4be8-8352-da414a5e7029&dna=ATATATTAATATATATATATATATATATATATCGGCCGATATATATATATATTAGCATATATATATATTATAATATTAGCATATATATATATGCGCATATATATATATATATATATATTA&singlePlayer=false
+
 <br><br>
 I bet we can maniuplate this singlePlayer=false to get the game to start. Lets give it a try! We can do this by using the console within the devloper window.
 <br>
+
 ![Console link](https://github.com/BeepBoopStuff/AllTheFlags/blob/ada9dda220f62ed7ac1bdc5e7c7bd1434ffac40b/SANS%20Holiday%20Hack%202023/snow_ball/modify_link.png)
+
 <br><br>
 Once we hit enter the window reloads, so that is a good sign. lets try starting the game now by clicking "Ready".
 <br>
+
 ![Elf is Here](https://github.com/BeepBoopStuff/AllTheFlags/blob/ada9dda220f62ed7ac1bdc5e7c7bd1434ffac40b/SANS%20Holiday%20Hack%202023/snow_ball/elf_is_here.png)
+
 <br><br>
 Great the game is started, but we are still going to loss if we do not give ourself an advantage. Lets change the items we id in the javascript earlier via the console in the devloper window.
 <br>
+
 ![We are boss](https://github.com/BeepBoopStuff/AllTheFlags/blob/ada9dda220f62ed7ac1bdc5e7c7bd1434ffac40b/SANS%20Holiday%20Hack%202023/snow_ball/change_those_vars.png)
+
 <br><br>
 Wow it worked and we have defated all the elves and Santa without them throwing a single snowball!!
 <br>
+
 ![Winning](https://github.com/BeepBoopStuff/AllTheFlags/blob/ada9dda220f62ed7ac1bdc5e7c7bd1434ffac40b/SANS%20Holiday%20Hack%202023/snow_ball/we_win.png)
