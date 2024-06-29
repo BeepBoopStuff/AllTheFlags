@@ -189,7 +189,9 @@ We will be covering the second choice in this walkthrough. So lets get started!
 ### The Challenge
 First, we will need to slect the "Create Private Room" option
 <br>
+
 ![Challenge Home Highlight](https://github.com/BeepBoopStuff/AllTheFlags/blob/ada9dda220f62ed7ac1bdc5e7c7bd1434ffac40b/SANS%20Holiday%20Hack%202023/snow_ball/homescreen_highlight.png)
+
 <br><br>
 Now that we are in the lobby we need to inspect the iFrame that is running the game. We can do this by righ-clicking within the game iFrame and slecting inspect.
 <br>
