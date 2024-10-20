@@ -118,7 +118,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 Program received signal SIGSEGV, Segmentation fault.
 0x41414141 in ?? ()
 ```
-** Back-up and take control**
+**Back-up and take control**
 ```bash
 (gdb) run < input.txt
 The program being debugged has been started already.
