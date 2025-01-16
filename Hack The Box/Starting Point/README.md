@@ -1,0 +1,17 @@
+# Starting Point
+
+You have to start somewhere and this seems like a good place to start. In this track Hack the Box has curated a grouping of machines that will help get you started with your journey. This track is split into three tiers that will teach you the basics and get you started in HTB.  Sounds like a blast, lets get started 🙂. 
+
+# Machine Write-ups
+
+### Tier 0: Strong Foundation 
+
+[Redeemer](https://github.com/BeepBoopStuff/AllTheFlags/blob/55c2f5e18867aba223297fbc249dbdef7bf022df/Hack%20The%20Box/Starting%20Point/Redeemer/README.md)
+
+[Mongod](https://github.com/BeepBoopStuff/AllTheFlags/blob/55c2f5e18867aba223297fbc249dbdef7bf022df/Hack%20The%20Box/Starting%20Point/Mongod/README.md)
+
+[Synced](https://github.com/BeepBoopStuff/AllTheFlags/blob/55c2f5e18867aba223297fbc249dbdef7bf022df/Hack%20The%20Box/Starting%20Point/Synced/README.md)
+
+
+
+### Tier 1: Learn to Walk
