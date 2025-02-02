@@ -17,3 +17,4 @@ You have to start somewhere and this seems like a good place to start. In this t
 ### Tier 1: Learn to Walk
 
 [Responder](https://github.com/BeepBoopStuff/AllTheFlags/blob/79de72e3d5e48fa7c18f02bc791279e6ef6c1153/Hack%20The%20Box/Starting%20Point/Responder/README.md)
+[Three](https://github.com/BeepBoopStuff/AllTheFlags/blob/d0e8a87fd59e3a74245f872feca11a8895c43b3a/Hack%20The%20Box/Starting%20Point/Three/README.md)
